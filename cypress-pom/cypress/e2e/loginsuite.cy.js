@@ -1,4 +1,4 @@
-import loginPage from './pages/LoginPage';
+import loginPage from '../support/pageObject/LoginPage';
 
 describe('OrangeHRM Login Page Test Suite', () => {
   it('Should allow access to the login page', () => {
