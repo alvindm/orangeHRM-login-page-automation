@@ -1,0 +1,40 @@
+{
+  "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  
+  "validAdmin": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidLeadingSpaceUser": {
+    "username": " Admin",
+    "password": "admin123"
+  },
+  "invalidLeadingSpacePass": {
+    "username": "Admin",
+    "password": " admin123"
+  },
+  "validTrailingSpaceUser": {
+    "username": "Admin ",
+    "password": "admin123"
+  },
+  "invalidTrailingSpacePass": {
+    "username": "Admin",
+    "password": "admin123 "
+  },
+  "capsLockUser": {
+    "username": "ADMIN",
+    "password": "admin123"
+  },
+  "capsLockPass": {
+    "username": "Admin",
+    "password": "ADMIN123"
+  },
+  "userWithSpaceInBetween": {
+    "username": "Ad min",
+    "password": "admin123"
+  },
+  "passWithSpaceInBetween": {
+    "username": "Admin",
+    "password": "admin 123"
+  }
+}
